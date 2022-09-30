@@ -146,7 +146,8 @@ nav {
   position: absolute;
   top: 60px;
   left: 0;
-  width: calc(100% - 24px);
+  width: calc(100% - 48px);
+  height: calc(100% - 108px);
   padding: 24px;
 }
 .mobile-menu a {
@@ -179,14 +180,17 @@ nav {
 aside {
   background-color: var(--white);
   width: 360px;
+  padding-bottom: 24px;
   box-sizing: border-box;
   position: absolute;
   right: 0;
+  border-radius: 6px;
 }
 
 /* ShoppingCart */
 #shoppingCartContainer{
   padding: 0 24px;
+  padding-bottom: 24px;
 }
 
 .title-container {
